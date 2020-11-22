@@ -5,6 +5,7 @@
   "main": "materialize.js",
   "homepage": "https://Mathieu94110.github.io/Materialize",
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
