@@ -1,0 +1,24 @@
+{
+  "name": "materialize",
+  "version": "1.0.0",
+  "description": "Materialize batman project",
+  "main": "materialize.js",
+  "homepage": "https://Mathieu94110.github.io/Materialize",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathieu94110/Materialize.git"
+  },
+  "author": "Mathieu Enault",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mathieu94110/Materialize/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
